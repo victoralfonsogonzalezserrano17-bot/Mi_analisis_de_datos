@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 
-df = pd.read_excel(r"C:\Users\victo\Documents\PROYECTO_01\YARDAS_PASOS_DATOS_TICS (1).xlsx", index_col=0)
+df = pd.read_excel(r"YARDAS_PASOS_DATOS_TICS (1).xlsx", index_col=0)
 st.dataframe(df.head())
 st.header("Estadistica descriptiva")
 st.dataframe(df.describe())
